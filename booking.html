@@ -1,0 +1,144 @@
+<!-- File: booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Now - Cocktail Concept</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="aos/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top  shadow-sm">
+    <div class="container d-flex align-items-center">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+        <img src="logo1.png" alt="Cocktail Concept Logo" style="height:80px;max-width:160px;width:auto;object-fit:contain;" class="d-inline-block align-middle img-fluid" />
+        <span class="navbar-title-text1">Cocktail<span class="text-warning"> Concept</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="how-it-works.html">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link active" href="booking.html">Book Now</a></li>
+          <li class="nav-item"><a class="nav-link" href="why-us.html">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Booking Section -->
+  <section class="booking-section py-5">
+    <div class="container">
+      <div class="pt-5"></div>
+      <h2 class="section-title text-white mb-5" data-aos="fade-up">Book Your Service</h2>
+      <div class="row align-items-center">
+        <!-- Booking Form -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="booking-form text-white">
+            <h4 class="mb-4">Fill in Your Booking Details</h4>
+            <form>
+              <div class="mb-3">
+                <select class="form-control">
+                  <option selected disabled>Select Occasion</option>
+                  <option>House Party</option>
+                  <option>Wedding</option>
+                  <option>Corporate Event</option>
+                  <option>Birthday</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <select class="form-control">
+                  <option selected disabled>Number of Guests</option>
+                  <option>1-20 Guests</option>
+                  <option>21-50 Guests</option>
+                  <option>51-100 Guests</option>
+                  <option>100+ Guests</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <select class="form-control">
+                  <option selected disabled>Preferred Time Slot</option>
+                  <option>8:00 AM - 11:00 AM</option>
+                  <option>11:00 AM - 2:00 PM</option>
+                  <option>2:00 PM - 5:00 PM</option>
+                  <option>5:00 PM - 8:00 PM</option>
+                  <option>8:00 PM - 11:00 PM</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <select class="form-control">
+                  <option selected disabled>Select City</option>
+                  <option>Pune</option>
+                  <option>Mumbai</option>
+                </select>
+              </div>
+              <div class="mb-3 text-white">
+                <input type="number" class="form-control" placeholder="Enter Mobile Number" pattern="[0-9]{10}" required>
+              </div>
+              <div class="mb-3 text-white">
+                <input type="email" class="form-control" placeholder="Enter Email Address" required>
+              </div>
+              <style>
+                .form-control::placeholder {
+                  color: black;
+                  opacity: 1;
+                }
+              </style>
+              
+              <div class="recommendation">
+                <p class="text-white"><i class="ri-information-line me-2"></i>We recommend 1 bartender for every 20 guests. For non-alcoholic events, 1 for every 15 guests.</p>
+              </div>
+              <button type="submit" class="btn btn-primary w-100 mt-3">Proceed to Book</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Help Section -->
+        <div class="col-md-6 text-white text-center px-4 contact" data-aos="fade-left">
+          <div class="display-5 mb-3"><i class="ri-phone-fill"></i> +91 8483054044</div>
+          <p>Need help with booking? Our support team is available 24/7 for assistance.</p>
+          <p>We proudly serve events across Pune & Mumbai with top-rated professionals.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <!-- <a href="tel:8483054044" class="call-float" aria-label="Call Now">
+    <i class="ri-phone-line"></i>
+  </a> -->
+  <a href="https://wa.me/918483054044" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="ri-whatsapp-line"></i>
+  </a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <h4 class="footer-logo fw-bold">Cocktail <span class="text-warning">Concept</span></h4>
+      <p class="small">&copy; 2025 Cocktail Concept. All rights reserved.<br>
+Design By <a href="https://a2zithub.org/" target="_blank" rel="noopener" style="color:#25a2e0;font-weight:600;text-decoration:none;">A2Z IT HUB PVT LTD.</a></p>
+      <div class="social-icons mt-3">
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="aos/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
